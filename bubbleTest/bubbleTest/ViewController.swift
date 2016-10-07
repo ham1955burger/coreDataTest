@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var result: [BubbleTest]?
     
+    @IBOutlet weak var emptyLabel: UILabel!
     var sortState: Bool = false
 
     override func viewDidLoad() {
@@ -32,9 +33,15 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard self.result != nil else {
+        guard self.result?.count != 0 else {
+            tableView.isHidden = true
+            self.emptyLabel.isHidden = false
             return 0
         }
+        
+        tableView.isHidden = false
+        self.emptyLabel.isHidden = true
+        
         return (self.result?.count)!
     }
     

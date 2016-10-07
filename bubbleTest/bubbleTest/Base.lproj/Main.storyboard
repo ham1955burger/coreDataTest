@@ -79,6 +79,11 @@
                                     <action selector="deleteAllObject:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3LR-NP-skq"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bd-sA-eqN">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -92,6 +97,8 @@
                             <constraint firstItem="QqX-dO-pxJ" firstAttribute="height" secondItem="Tjx-An-iyA" secondAttribute="height" id="Lbs-Ip-Dz4"/>
                             <constraint firstItem="CvN-vf-7Z3" firstAttribute="top" secondItem="1qi-OG-Hu9" secondAttribute="bottom" id="We6-3F-C8f"/>
                             <constraint firstItem="1qi-OG-Hu9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="an4-Jr-SQU"/>
+                            <constraint firstItem="6Bd-sA-eqN" firstAttribute="centerX" secondItem="1qi-OG-Hu9" secondAttribute="centerX" id="cNj-Ao-LPz"/>
+                            <constraint firstItem="6Bd-sA-eqN" firstAttribute="centerY" secondItem="1qi-OG-Hu9" secondAttribute="centerY" id="fHK-Hy-glg"/>
                             <constraint firstItem="CvN-vf-7Z3" firstAttribute="leading" secondItem="QqX-dO-pxJ" secondAttribute="trailing" id="fpW-PZ-ng3"/>
                             <constraint firstItem="CvN-vf-7Z3" firstAttribute="width" secondItem="QqX-dO-pxJ" secondAttribute="width" id="g9i-3m-gwC"/>
                             <constraint firstAttribute="trailing" secondItem="CvN-vf-7Z3" secondAttribute="trailing" id="gpt-lb-lzS"/>
@@ -112,6 +119,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="emptyLabel" destination="6Bd-sA-eqN" id="W6t-ug-Yrf"/>
                         <outlet property="tableView" destination="1qi-OG-Hu9" id="oU1-j7-NSw"/>
                     </connections>
                 </viewController>
