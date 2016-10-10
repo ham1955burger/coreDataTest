@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6D9DFC1DAB44470006D510 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9DFB1DAB44470006D510 /* CoreDataStack.swift */; };
 		CEBB58881DA7237500A42475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58871DA7237500A42475 /* AppDelegate.swift */; };
 		CEBB588A1DA7237500A42475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58891DA7237500A42475 /* ViewController.swift */; };
 		CEBB588D1DA7237500A42475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB588B1DA7237500A42475 /* Main.storyboard */; };
@@ -38,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE6D9DFA1DAB28A50006D510 /* bubbleTest 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bubbleTest 2.xcdatamodel"; sourceTree = "<group>"; };
+		CE6D9DFB1DAB44470006D510 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CE6D9DFD1DAB67B40006D510 /* bubbleTest 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bubbleTest 3.xcdatamodel"; sourceTree = "<group>"; };
 		CEBB58841DA7237500A42475 /* bubbleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bubbleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB58871DA7237500A42475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEBB58891DA7237500A42475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 		CEBB58BC1DA7272900A42475 /* coreData */ = {
 			isa = PBXGroup;
 			children = (
+				CE6D9DFB1DAB44470006D510 /* CoreDataStack.swift */,
 				CEBB58B81DA7271C00A42475 /* BubbleTest+CoreDataClass.swift */,
 				CEBB58B91DA7271C00A42475 /* BubbleTest+CoreDataProperties.swift */,
 			);
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6D9DFC1DAB44470006D510 /* CoreDataStack.swift in Sources */,
 				CEBB588A1DA7237500A42475 /* ViewController.swift in Sources */,
 				CEBB58BA1DA7271C00A42475 /* BubbleTest+CoreDataClass.swift in Sources */,
 				CEBB58881DA7237500A42475 /* AppDelegate.swift in Sources */,
@@ -529,6 +535,7 @@
 				CEBB58B11DA7237500A42475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEBB58B21DA7237500A42475 /* Build configuration list for PBXNativeTarget "bubbleTestTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +544,7 @@
 				CEBB58B41DA7237500A42475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEBB58B51DA7237500A42475 /* Build configuration list for PBXNativeTarget "bubbleTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +553,7 @@
 				CEBB58B71DA7237500A42475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -552,9 +561,11 @@
 		CEBB588E1DA7237500A42475 /* bubbleTest.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				CE6D9DFD1DAB67B40006D510 /* bubbleTest 3.xcdatamodel */,
+				CE6D9DFA1DAB28A50006D510 /* bubbleTest 2.xcdatamodel */,
 				CEBB588F1DA7237500A42475 /* bubbleTest.xcdatamodel */,
 			);
-			currentVersion = CEBB588F1DA7237500A42475 /* bubbleTest.xcdatamodel */;
+			currentVersion = CE6D9DFD1DAB67B40006D510 /* bubbleTest 3.xcdatamodel */;
 			path = bubbleTest.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

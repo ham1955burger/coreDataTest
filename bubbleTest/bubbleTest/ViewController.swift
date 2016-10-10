@@ -126,10 +126,10 @@ extension ViewController {
 
 extension ViewController {
     func storeTranscription(date: Date, isReceived: Bool, message: String, room: Int, sender: Int) {
-        let context = appDelegate.getContext()
+        let context = appDelegate.managedObjectContext
         
         //retrieve the entity that we just created
-        let entity =  NSEntityDescription.entity(forEntityName: "BubbleTest", in: context)
+        let entity =  NSEntityDescription.entity(forEntityName: "BubbleTest", in: context!)
         
         let transc = NSManagedObject(entity: entity!, insertInto: context)
         
@@ -171,7 +171,7 @@ extension ViewController {
         
         do {
             //go get the results
-            self.result = try appDelegate.getContext().fetch(fetchRequest)
+            self.result = try appDelegate.managedObjectContext!.fetch(fetchRequest)
             self.tableView.reloadData()
             
             /*
@@ -190,9 +190,9 @@ extension ViewController {
     }
     
     func deleteObj(objectIndex: Int) {
-        let context = appDelegate.getContext()
+        let context = appDelegate.managedObjectContext
         
-        context.delete(self.result![objectIndex])
+        context?.delete(self.result![objectIndex])
         appDelegate.saveContext { (error) in
             if error == nil {
                 self.getTranscriptions()

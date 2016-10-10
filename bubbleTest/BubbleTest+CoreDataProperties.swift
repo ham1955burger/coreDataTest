@@ -21,5 +21,7 @@ extension BubbleTest {
     @NSManaged public var isReceived: Bool
     @NSManaged public var room: Int16
     @NSManaged public var sender: Int16
-
+    @NSManaged public var test: Bool
+    @NSManaged public var test2: Bool
+    
 }
