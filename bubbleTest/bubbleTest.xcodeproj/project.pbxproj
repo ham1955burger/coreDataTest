@@ -7,9 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA07DEBF142459411636B389 /* Pods_bubbleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228B7160B067E6AC12BBCA19 /* Pods_bubbleTest.framework */; };
 		CE6D9DFC1DAB44470006D510 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9DFB1DAB44470006D510 /* CoreDataStack.swift */; };
+		CE859FB91DB076F5003DE843 /* Bubble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE859FB71DB076F5003DE843 /* Bubble.storyboard */; };
+		CE859FBE1DB07961003DE843 /* CoreData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE859FBC1DB07961003DE843 /* CoreData.storyboard */; };
+		CE859FC11DB086F1003DE843 /* ChatRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FC01DB086F1003DE843 /* ChatRoomsViewController.swift */; };
+		CE859FC51DB0A810003DE843 /* BubbleChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FC41DB0A810003DE843 /* BubbleChatViewController.swift */; };
+		CE859FDD1DB0ACAB003DE843 /* DemoPhotoMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FDA1DB0ACAB003DE843 /* DemoPhotoMessageHandler.swift */; };
+		CE859FDE1DB0ACAB003DE843 /* DemoPhotoMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FDB1DB0ACAB003DE843 /* DemoPhotoMessageModel.swift */; };
+		CE859FDF1DB0ACAB003DE843 /* DemoPhotoMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FDC1DB0ACAB003DE843 /* DemoPhotoMessageViewModel.swift */; };
+		CE859FE61DB0ACC8003DE843 /* SendingStatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FE31DB0ACC8003DE843 /* SendingStatusCollectionViewCell.swift */; };
+		CE859FE71DB0ACC8003DE843 /* SendingStatusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE859FE41DB0ACC8003DE843 /* SendingStatusCollectionViewCell.xib */; };
+		CE859FE81DB0ACC8003DE843 /* SendingStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FE51DB0ACC8003DE843 /* SendingStatusPresenter.swift */; };
+		CE859FEE1DB0ACF0003DE843 /* DemoTextMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FEB1DB0ACF0003DE843 /* DemoTextMessageHandler.swift */; };
+		CE859FEF1DB0ACF0003DE843 /* DemoTextMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FEC1DB0ACF0003DE843 /* DemoTextMessageModel.swift */; };
+		CE859FF01DB0ACF0003DE843 /* DemoTextMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FED1DB0ACF0003DE843 /* DemoTextMessageViewModel.swift */; };
+		CE859FF51DB0AD10003DE843 /* TimeSeparatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FF21DB0AD10003DE843 /* TimeSeparatorCollectionViewCell.swift */; };
+		CE859FF61DB0AD10003DE843 /* TimeSeparatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FF31DB0AD10003DE843 /* TimeSeparatorModel.swift */; };
+		CE859FF71DB0AD10003DE843 /* TimeSeparatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FF41DB0AD10003DE843 /* TimeSeparatorPresenter.swift */; };
+		CE85A0011DB0AF15003DE843 /* BaseMessageCollectionViewCellAvatarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FF81DB0AF15003DE843 /* BaseMessageCollectionViewCellAvatarStyle.swift */; };
+		CE85A0021DB0AF15003DE843 /* BaseMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FF91DB0AF15003DE843 /* BaseMessageHandler.swift */; };
+		CE85A0031DB0AF15003DE843 /* ChatItemsDemoDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FFA1DB0AF15003DE843 /* ChatItemsDemoDecorator.swift */; };
+		CE85A0041DB0AF15003DE843 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FFB1DB0AF15003DE843 /* ConversationsViewController.swift */; };
+		CE85A0051DB0AF15003DE843 /* DemoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FFC1DB0AF15003DE843 /* DemoChatViewController.swift */; };
+		CE85A0061DB0AF15003DE843 /* FakeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FFD1DB0AF15003DE843 /* FakeDataSource.swift */; };
+		CE85A0071DB0AF15003DE843 /* FakeMessageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FFE1DB0AF15003DE843 /* FakeMessageFactory.swift */; };
+		CE85A0081DB0AF15003DE843 /* FakeMessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE859FFF1DB0AF15003DE843 /* FakeMessageSender.swift */; };
+		CE85A0091DB0AF15003DE843 /* SlidingDatasSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85A0001DB0AF15003DE843 /* SlidingDatasSource.swift */; };
 		CEBB58881DA7237500A42475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58871DA7237500A42475 /* AppDelegate.swift */; };
-		CEBB588A1DA7237500A42475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58891DA7237500A42475 /* ViewController.swift */; };
+		CEBB588A1DA7237500A42475 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58891DA7237500A42475 /* CoreDataViewController.swift */; };
 		CEBB588D1DA7237500A42475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB588B1DA7237500A42475 /* Main.storyboard */; };
 		CEBB58901DA7237500A42475 /* bubbleTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEBB588E1DA7237500A42475 /* bubbleTest.xcdatamodeld */; };
 		CEBB58921DA7237500A42475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB58911DA7237500A42475 /* Assets.xcassets */; };
@@ -18,7 +44,6 @@
 		CEBB58AB1DA7237500A42475 /* bubbleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58AA1DA7237500A42475 /* bubbleTestUITests.swift */; };
 		CEBB58BA1DA7271C00A42475 /* BubbleTest+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58B81DA7271C00A42475 /* BubbleTest+CoreDataClass.swift */; };
 		CEBB58BB1DA7271C00A42475 /* BubbleTest+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58B91DA7271C00A42475 /* BubbleTest+CoreDataProperties.swift */; };
-		CEBB58BE1DA73E7A00A42475 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB58BD1DA73E7A00A42475 /* TestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +64,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		228B7160B067E6AC12BBCA19 /* Pods_bubbleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bubbleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19D0C67EF21208A4E2DE612 /* Pods-bubbleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bubbleTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bubbleTest/Pods-bubbleTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6D9DFA1DAB28A50006D510 /* bubbleTest 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bubbleTest 2.xcdatamodel"; sourceTree = "<group>"; };
 		CE6D9DFB1DAB44470006D510 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		CE6D9DFD1DAB67B40006D510 /* bubbleTest 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bubbleTest 3.xcdatamodel"; sourceTree = "<group>"; };
+		CE859FB81DB076F5003DE843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Bubble.storyboard; sourceTree = "<group>"; };
+		CE859FBD1DB07961003DE843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CoreData.storyboard; sourceTree = "<group>"; };
+		CE859FC01DB086F1003DE843 /* ChatRoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomsViewController.swift; sourceTree = "<group>"; };
+		CE859FC41DB0A810003DE843 /* BubbleChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChatViewController.swift; sourceTree = "<group>"; };
+		CE859FDA1DB0ACAB003DE843 /* DemoPhotoMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoPhotoMessageHandler.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Photo Messages/DemoPhotoMessageHandler.swift"; sourceTree = "<group>"; };
+		CE859FDB1DB0ACAB003DE843 /* DemoPhotoMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoPhotoMessageModel.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Photo Messages/DemoPhotoMessageModel.swift"; sourceTree = "<group>"; };
+		CE859FDC1DB0ACAB003DE843 /* DemoPhotoMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoPhotoMessageViewModel.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Photo Messages/DemoPhotoMessageViewModel.swift"; sourceTree = "<group>"; };
+		CE859FE31DB0ACC8003DE843 /* SendingStatusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendingStatusCollectionViewCell.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Sending status/SendingStatusCollectionViewCell.swift"; sourceTree = "<group>"; };
+		CE859FE41DB0ACC8003DE843 /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SendingStatusCollectionViewCell.xib; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Sending status/SendingStatusCollectionViewCell.xib"; sourceTree = "<group>"; };
+		CE859FE51DB0ACC8003DE843 /* SendingStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendingStatusPresenter.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Sending status/SendingStatusPresenter.swift"; sourceTree = "<group>"; };
+		CE859FEB1DB0ACF0003DE843 /* DemoTextMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoTextMessageHandler.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Text Messages/DemoTextMessageHandler.swift"; sourceTree = "<group>"; };
+		CE859FEC1DB0ACF0003DE843 /* DemoTextMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoTextMessageModel.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Text Messages/DemoTextMessageModel.swift"; sourceTree = "<group>"; };
+		CE859FED1DB0ACF0003DE843 /* DemoTextMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoTextMessageViewModel.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Text Messages/DemoTextMessageViewModel.swift"; sourceTree = "<group>"; };
+		CE859FF21DB0AD10003DE843 /* TimeSeparatorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSeparatorCollectionViewCell.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Time Separator/TimeSeparatorCollectionViewCell.swift"; sourceTree = "<group>"; };
+		CE859FF31DB0AD10003DE843 /* TimeSeparatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSeparatorModel.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Time Separator/TimeSeparatorModel.swift"; sourceTree = "<group>"; };
+		CE859FF41DB0AD10003DE843 /* TimeSeparatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSeparatorPresenter.swift; path = "../../../../../../Downloads/Chatto-master/ChattoApp/ChattoApp/Source/Time Separator/TimeSeparatorPresenter.swift"; sourceTree = "<group>"; };
+		CE859FF81DB0AF15003DE843 /* BaseMessageCollectionViewCellAvatarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseMessageCollectionViewCellAvatarStyle.swift; path = Source/BaseMessageCollectionViewCellAvatarStyle.swift; sourceTree = "<group>"; };
+		CE859FF91DB0AF15003DE843 /* BaseMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseMessageHandler.swift; path = Source/BaseMessageHandler.swift; sourceTree = "<group>"; };
+		CE859FFA1DB0AF15003DE843 /* ChatItemsDemoDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatItemsDemoDecorator.swift; path = Source/ChatItemsDemoDecorator.swift; sourceTree = "<group>"; };
+		CE859FFB1DB0AF15003DE843 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationsViewController.swift; path = Source/ConversationsViewController.swift; sourceTree = "<group>"; };
+		CE859FFC1DB0AF15003DE843 /* DemoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoChatViewController.swift; path = Source/DemoChatViewController.swift; sourceTree = "<group>"; };
+		CE859FFD1DB0AF15003DE843 /* FakeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakeDataSource.swift; path = Source/FakeDataSource.swift; sourceTree = "<group>"; };
+		CE859FFE1DB0AF15003DE843 /* FakeMessageFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakeMessageFactory.swift; path = Source/FakeMessageFactory.swift; sourceTree = "<group>"; };
+		CE859FFF1DB0AF15003DE843 /* FakeMessageSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakeMessageSender.swift; path = Source/FakeMessageSender.swift; sourceTree = "<group>"; };
+		CE85A0001DB0AF15003DE843 /* SlidingDatasSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlidingDatasSource.swift; path = Source/SlidingDatasSource.swift; sourceTree = "<group>"; };
 		CEBB58841DA7237500A42475 /* bubbleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bubbleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB58871DA7237500A42475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEBB58891DA7237500A42475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBB58891DA7237500A42475 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
 		CEBB588C1DA7237500A42475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEBB588F1DA7237500A42475 /* bubbleTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bubbleTest.xcdatamodel; sourceTree = "<group>"; };
 		CEBB58911DA7237500A42475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +110,7 @@
 		CEBB58AC1DA7237500A42475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEBB58B81DA7271C00A42475 /* BubbleTest+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BubbleTest+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CEBB58B91DA7271C00A42475 /* BubbleTest+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BubbleTest+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CEBB58BD1DA73E7A00A42475 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		F62B11CCC35870BB69E2BFB7 /* Pods-bubbleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bubbleTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-bubbleTest/Pods-bubbleTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA07DEBF142459411636B389 /* Pods_bubbleTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,14 +139,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FEB6AE74A02C5C32636BD6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A19D0C67EF21208A4E2DE612 /* Pods-bubbleTest.debug.xcconfig */,
+				F62B11CCC35870BB69E2BFB7 /* Pods-bubbleTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82A13A65E18B0A3283AF677E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228B7160B067E6AC12BBCA19 /* Pods_bubbleTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE859FBF1DB07B35003DE843 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB588B1DA7237500A42475 /* Main.storyboard */,
+				CE859FBC1DB07961003DE843 /* CoreData.storyboard */,
+				CE859FB71DB076F5003DE843 /* Bubble.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		CE859FD81DB0AC91003DE843 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CE859FF81DB0AF15003DE843 /* BaseMessageCollectionViewCellAvatarStyle.swift */,
+				CE859FF91DB0AF15003DE843 /* BaseMessageHandler.swift */,
+				CE859FFA1DB0AF15003DE843 /* ChatItemsDemoDecorator.swift */,
+				CE859FFB1DB0AF15003DE843 /* ConversationsViewController.swift */,
+				CE859FFC1DB0AF15003DE843 /* DemoChatViewController.swift */,
+				CE859FFD1DB0AF15003DE843 /* FakeDataSource.swift */,
+				CE859FFE1DB0AF15003DE843 /* FakeMessageFactory.swift */,
+				CE859FFF1DB0AF15003DE843 /* FakeMessageSender.swift */,
+				CE85A0001DB0AF15003DE843 /* SlidingDatasSource.swift */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		CE859FD91DB0AC9B003DE843 /* PhotoMessage */ = {
+			isa = PBXGroup;
+			children = (
+				CE859FDA1DB0ACAB003DE843 /* DemoPhotoMessageHandler.swift */,
+				CE859FDB1DB0ACAB003DE843 /* DemoPhotoMessageModel.swift */,
+				CE859FDC1DB0ACAB003DE843 /* DemoPhotoMessageViewModel.swift */,
+			);
+			name = PhotoMessage;
+			sourceTree = "<group>";
+		};
+		CE859FE21DB0ACBA003DE843 /* Sending status */ = {
+			isa = PBXGroup;
+			children = (
+				CE859FE31DB0ACC8003DE843 /* SendingStatusCollectionViewCell.swift */,
+				CE859FE41DB0ACC8003DE843 /* SendingStatusCollectionViewCell.xib */,
+				CE859FE51DB0ACC8003DE843 /* SendingStatusPresenter.swift */,
+			);
+			name = "Sending status";
+			sourceTree = "<group>";
+		};
+		CE859FEA1DB0ACE1003DE843 /* TextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				CE859FEB1DB0ACF0003DE843 /* DemoTextMessageHandler.swift */,
+				CE859FEC1DB0ACF0003DE843 /* DemoTextMessageModel.swift */,
+				CE859FED1DB0ACF0003DE843 /* DemoTextMessageViewModel.swift */,
+			);
+			name = TextMessage;
+			sourceTree = "<group>";
+		};
+		CE859FF11DB0ACFF003DE843 /* Time Separator */ = {
+			isa = PBXGroup;
+			children = (
+				CE859FF21DB0AD10003DE843 /* TimeSeparatorCollectionViewCell.swift */,
+				CE859FF31DB0AD10003DE843 /* TimeSeparatorModel.swift */,
+				CE859FF41DB0AD10003DE843 /* TimeSeparatorPresenter.swift */,
+			);
+			name = "Time Separator";
+			sourceTree = "<group>";
+		};
 		CEBB587B1DA7237500A42475 = {
 			isa = PBXGroup;
 			children = (
+				CE859FBF1DB07B35003DE843 /* storyboard */,
 				CEBB58BC1DA7272900A42475 /* coreData */,
 				CEBB58861DA7237500A42475 /* bubbleTest */,
 				CEBB589E1DA7237500A42475 /* bubbleTestTests */,
 				CEBB58A91DA7237500A42475 /* bubbleTestUITests */,
 				CEBB58851DA7237500A42475 /* Products */,
+				4FEB6AE74A02C5C32636BD6A /* Pods */,
+				82A13A65E18B0A3283AF677E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,14 +249,19 @@
 		CEBB58861DA7237500A42475 /* bubbleTest */ = {
 			isa = PBXGroup;
 			children = (
+				CE859FF11DB0ACFF003DE843 /* Time Separator */,
+				CE859FEA1DB0ACE1003DE843 /* TextMessage */,
+				CE859FE21DB0ACBA003DE843 /* Sending status */,
+				CE859FD91DB0AC9B003DE843 /* PhotoMessage */,
+				CE859FD81DB0AC91003DE843 /* source */,
 				CEBB58871DA7237500A42475 /* AppDelegate.swift */,
-				CEBB58891DA7237500A42475 /* ViewController.swift */,
-				CEBB588B1DA7237500A42475 /* Main.storyboard */,
+				CE859FC01DB086F1003DE843 /* ChatRoomsViewController.swift */,
+				CEBB58891DA7237500A42475 /* CoreDataViewController.swift */,
+				CE859FC41DB0A810003DE843 /* BubbleChatViewController.swift */,
 				CEBB58911DA7237500A42475 /* Assets.xcassets */,
 				CEBB58931DA7237500A42475 /* LaunchScreen.storyboard */,
 				CEBB58961DA7237500A42475 /* Info.plist */,
 				CEBB588E1DA7237500A42475 /* bubbleTest.xcdatamodeld */,
-				CEBB58BD1DA73E7A00A42475 /* TestTableViewCell.swift */,
 			);
 			path = bubbleTest;
 			sourceTree = "<group>";
@@ -157,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEBB58AF1DA7237500A42475 /* Build configuration list for PBXNativeTarget "bubbleTest" */;
 			buildPhases = (
+				3C378E5A38CCDCEE1FA6F397 /* [CP] Check Pods Manifest.lock */,
 				CEBB58801DA7237500A42475 /* Sources */,
 				CEBB58811DA7237500A42475 /* Frameworks */,
 				CEBB58821DA7237500A42475 /* Resources */,
+				845016722CA237CB819CC4DD /* [CP] Embed Pods Frameworks */,
+				63729EE61987D54EDF4A1C23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,7 +404,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE859FBE1DB07961003DE843 /* CoreData.storyboard in Resources */,
+				CE859FB91DB076F5003DE843 /* Bubble.storyboard in Resources */,
 				CEBB58951DA7237500A42475 /* LaunchScreen.storyboard in Resources */,
+				CE859FE71DB0ACC8003DE843 /* SendingStatusCollectionViewCell.xib in Resources */,
 				CEBB58921DA7237500A42475 /* Assets.xcassets in Resources */,
 				CEBB588D1DA7237500A42475 /* Main.storyboard in Resources */,
 			);
@@ -279,18 +429,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C378E5A38CCDCEE1FA6F397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63729EE61987D54EDF4A1C23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bubbleTest/Pods-bubbleTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845016722CA237CB819CC4DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bubbleTest/Pods-bubbleTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEBB58801DA7237500A42475 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE859FDE1DB0ACAB003DE843 /* DemoPhotoMessageModel.swift in Sources */,
+				CE859FDD1DB0ACAB003DE843 /* DemoPhotoMessageHandler.swift in Sources */,
+				CE85A0061DB0AF15003DE843 /* FakeDataSource.swift in Sources */,
+				CE859FDF1DB0ACAB003DE843 /* DemoPhotoMessageViewModel.swift in Sources */,
+				CE85A0021DB0AF15003DE843 /* BaseMessageHandler.swift in Sources */,
+				CE859FEF1DB0ACF0003DE843 /* DemoTextMessageModel.swift in Sources */,
 				CE6D9DFC1DAB44470006D510 /* CoreDataStack.swift in Sources */,
-				CEBB588A1DA7237500A42475 /* ViewController.swift in Sources */,
+				CE85A0091DB0AF15003DE843 /* SlidingDatasSource.swift in Sources */,
+				CE859FF01DB0ACF0003DE843 /* DemoTextMessageViewModel.swift in Sources */,
+				CE85A0031DB0AF15003DE843 /* ChatItemsDemoDecorator.swift in Sources */,
+				CEBB588A1DA7237500A42475 /* CoreDataViewController.swift in Sources */,
+				CE859FF71DB0AD10003DE843 /* TimeSeparatorPresenter.swift in Sources */,
+				CE85A0071DB0AF15003DE843 /* FakeMessageFactory.swift in Sources */,
+				CE859FF51DB0AD10003DE843 /* TimeSeparatorCollectionViewCell.swift in Sources */,
 				CEBB58BA1DA7271C00A42475 /* BubbleTest+CoreDataClass.swift in Sources */,
 				CEBB58881DA7237500A42475 /* AppDelegate.swift in Sources */,
+				CE859FC51DB0A810003DE843 /* BubbleChatViewController.swift in Sources */,
+				CE859FE61DB0ACC8003DE843 /* SendingStatusCollectionViewCell.swift in Sources */,
+				CE859FC11DB086F1003DE843 /* ChatRoomsViewController.swift in Sources */,
+				CE85A0081DB0AF15003DE843 /* FakeMessageSender.swift in Sources */,
+				CE859FF61DB0AD10003DE843 /* TimeSeparatorModel.swift in Sources */,
+				CE85A0041DB0AF15003DE843 /* ConversationsViewController.swift in Sources */,
 				CEBB58BB1DA7271C00A42475 /* BubbleTest+CoreDataProperties.swift in Sources */,
+				CE85A0051DB0AF15003DE843 /* DemoChatViewController.swift in Sources */,
+				CE85A0011DB0AF15003DE843 /* BaseMessageCollectionViewCellAvatarStyle.swift in Sources */,
 				CEBB58901DA7237500A42475 /* bubbleTest.xcdatamodeld in Sources */,
-				CEBB58BE1DA73E7A00A42475 /* TestTableViewCell.swift in Sources */,
+				CE859FEE1DB0ACF0003DE843 /* DemoTextMessageHandler.swift in Sources */,
+				CE859FE81DB0ACC8003DE843 /* SendingStatusPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +545,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CE859FB71DB076F5003DE843 /* Bubble.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE859FB81DB076F5003DE843 /* Base */,
+			);
+			name = Bubble.storyboard;
+			path = bubbleTest;
+			sourceTree = "<group>";
+		};
+		CE859FBC1DB07961003DE843 /* CoreData.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE859FBD1DB07961003DE843 /* Base */,
+			);
+			name = CoreData.storyboard;
+			path = bubbleTest;
+			sourceTree = "<group>";
+		};
 		CEBB588B1DA7237500A42475 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEBB588C1DA7237500A42475 /* Base */,
 			);
 			name = Main.storyboard;
+			path = bubbleTest;
 			sourceTree = "<group>";
 		};
 		CEBB58931DA7237500A42475 /* LaunchScreen.storyboard */ = {
@@ -440,6 +678,7 @@
 		};
 		CEBB58B01DA7237500A42475 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19D0C67EF21208A4E2DE612 /* Pods-bubbleTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bubbleTest/Info.plist;
@@ -452,6 +691,7 @@
 		};
 		CEBB58B11DA7237500A42475 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62B11CCC35870BB69E2BFB7 /* Pods-bubbleTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bubbleTest/Info.plist;

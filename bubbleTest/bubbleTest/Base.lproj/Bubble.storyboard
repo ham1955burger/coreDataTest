@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PEA-xS-Ixf">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--버블챗-->
+        <scene sceneID="HRP-Cj-bTD">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="IqO-dv-7kt" customClass="ChatRoomsViewController" customModule="bubbleTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qfs-V1-h6L"/>
+                        <viewControllerLayoutGuide type="bottom" id="JIc-yR-ncV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Eq9-xC-nDM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ICO-i4-PDQ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatRoomsTableViewCell" textLabel="3KH-qE-hda" style="IBUITableViewCellStyleDefault" id="uq0-bX-BBs" customClass="ChatRoomsTableViewCell" customModule="bubbleTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uq0-bX-BBs" id="eUs-SK-sRB">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="1번 방" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3KH-qE-hda">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="roomLabel" destination="3KH-qE-hda" id="6n0-IF-n3d"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="IqO-dv-7kt" id="bBV-sH-Wgo"/>
+                                    <outlet property="delegate" destination="IqO-dv-7kt" id="9DA-yR-8XF"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ICO-i4-PDQ" secondAttribute="trailing" id="4R2-oI-rn7"/>
+                            <constraint firstItem="ICO-i4-PDQ" firstAttribute="top" secondItem="Qfs-V1-h6L" secondAttribute="bottom" id="5ee-1n-I3l"/>
+                            <constraint firstItem="ICO-i4-PDQ" firstAttribute="leading" secondItem="Eq9-xC-nDM" secondAttribute="leading" id="Kiv-3h-NyX"/>
+                            <constraint firstItem="JIc-yR-ncV" firstAttribute="top" secondItem="ICO-i4-PDQ" secondAttribute="bottom" id="W63-ps-7av"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="버블챗" id="nE4-9k-wur"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2kA-19-DZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="-138"/>
+        </scene>
+        <!--Bubble Chat View Controller-->
+        <scene sceneID="zlh-JY-Cco">
+            <objects>
+                <viewController storyboardIdentifier="BubbleChatViewController" id="Iq3-qp-VXn" customClass="BubbleChatViewController" customModule="bubbleTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4q4-y6-LxU"/>
+                        <viewControllerLayoutGuide type="bottom" id="e0p-Zx-HtU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DT5-3r-f2C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ae5-0N-baW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2105" y="-138"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vmw-ik-2py">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PEA-xS-Ixf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="gmb-zf-nSX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W1Y-Pp-MAQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IqO-dv-7kt" kind="relationship" relationship="rootViewController" id="ze1-LF-Diu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1po-VF-gC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360.80000000000001" y="-138.0809595202399"/>
+        </scene>
+    </scenes>
+</document>

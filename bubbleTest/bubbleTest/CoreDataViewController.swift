@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class ViewController: UIViewController {
+class CoreDataViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension CoreDataViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard self.result?.count != 0 else {
             tableView.isHidden = true
@@ -86,7 +86,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
 // MARK: - Actions
 
-extension ViewController {
+extension CoreDataViewController {
     @IBAction func actionReceive(_ sender: AnyObject) {
         // 받기
         self.storeTranscription(date: Date(), isReceived: true, message: "받기 테스트", room: 1, sender: 2)
@@ -124,7 +124,7 @@ extension ViewController {
 
 // MARK: - Functions
 
-extension ViewController {
+extension CoreDataViewController {
     func storeTranscription(date: Date, isReceived: Bool, message: String, room: Int, sender: Int) {
         let context = appDelegate.managedObjectContext
         
@@ -218,4 +218,10 @@ extension ViewController {
         self.getTranscriptions()
     }
 }
+
+class TestTableViewCell: UITableViewCell {
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+}
+
 
